@@ -1,0 +1,24 @@
+set terminal jpeg 
+set size ratio 0.5464
+set output 'bar.jpg'
+set style line 2 lc rgb 'black' lt 1 lw 1
+set linetype 1 lc rgb 'black'
+set linetype 2 lc rgb 'black'
+set linetype 3 lc rgb 'black'
+set linetype 4 lc rgb 'black'
+set linetype 5 lc rgb 'black'
+set linetype 6 lc rgb 'black'
+set linetype 7 lc rgb 'black'
+set linetype 8 lc rgb 'black'
+set linetype 9 lc rgb 'black'
+set linetype 10 lc rgb 'black'
+set linetype 11 lc rgb 'black'
+set auto x
+set style data histogram
+set style histogram cluster gap 1
+set style fill  pattern 1 border
+plot 'immigration.dat' using 2:xtic(1) title col, \
+        '' using 3:xtic(1) title col, \
+        '' using 4:xtic(1) title col, \
+        '' using 5:xtic(1) title col, \
+        '' using 6:xtic(1) title col

@@ -1,0 +1,17 @@
+set terminal jpeg
+set output 'line.jpg'
+set size ratio 0.5464
+set linetype 1 lc rgb 'black'
+set linetype 2 lc rgb 'black'
+set linetype 3 lc rgb 'black'
+set linetype 4 lc rgb 'black'
+set linetype 5 lc rgb 'black'
+set linetype 6 lc rgb 'black'
+set linetype 7 lc rgb 'black'
+set linetype 8 lc rgb 'black'
+set linetype 9 lc rgb 'black'
+set linetype 10 lc rgb 'black'
+set linetype 11 lc rgb 'black'
+set style data linespoints
+set datafile separator ','
+plot 'data.csv' using 2:xtic(1) title columnheader(2), for [i=3:10] '' using i title columnheader(i)
