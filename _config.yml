@@ -10,7 +10,7 @@ description: Happy Life
 # baseurl: "" # the subpath of your site, e.g. /blog/
 # url: "http://yourdomain.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
-github_username: 
+github_username: oceanofsea
 permalink: /:year/:month/:day/:title/
 
 #########################################
