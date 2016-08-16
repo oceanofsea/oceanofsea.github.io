@@ -102,4 +102,10 @@ git tag -d tagname
 
 [^1]: [Use repo tags](https://confluence.atlassian.com/bitbucket/use-repo-tags-321860179.html)
 
+### Contribute to an existing project
+
+1. fork to your repository
+2. git remote add newname the-url-of-original-project
+3. git pull newname master
+
 ## Reference
