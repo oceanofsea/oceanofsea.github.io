@@ -25,7 +25,7 @@ We call this the partial derivative of ```c``` with respect to ```a```.
 
 # Start with Linear Regression
 
-[linear model](/images/lr.png)
+![linear model](/images/lr.png)
 
 在这个图上，我们需要把输出的y转换成概率的形式，原则是正确分类的概率大，错误的分类概率小。
 而这个转换成概率的过程叫 **SoftMax**.
