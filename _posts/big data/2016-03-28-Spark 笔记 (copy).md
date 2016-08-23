@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Spark QA"
+date:   2016-08-23
+categories: BigData
+excerpt: 
+tags: Spark Useful QA
+---
+
+* content
+{:toc}
+
+## log4j
+
+Spark loads its default log4j properties, and some information is hidden.
+
+To change this, you can define your own [log4j.properties](https://gist.github.com/SeaOfOcean/d7e7e43411801114072f4e7edbc3c8d1)
+
+And the src/main/resources || src/test/resourcesis the "standard placement" for this. 
+
+The folder structure is as follows:
+![log4j folder structure](/images/posts/log4j.png)
+
+Now it works!
