@@ -11,4 +11,16 @@ tags: Useful Linux
 {:toc}
 
 
+## Directory
 
+```
+mkdir -p /xx/xx/xx
+```
+
+makes the directory hierachy directly.
+
+```
+rm -rf /xx/xx/xx
+```
+
+remove folder and its subfolders
