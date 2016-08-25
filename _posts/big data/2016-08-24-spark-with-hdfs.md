@@ -1,3 +1,12 @@
+---
+layout: post
+title:  "Spark with hdfs notes"
+date:   2016-08-24
+categories: BigData
+excerpt: 
+tags: Useful Linux
+---
+
 Copy file to HDFS
 
 ```
