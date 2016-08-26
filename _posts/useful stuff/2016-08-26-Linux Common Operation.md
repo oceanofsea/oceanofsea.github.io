@@ -41,3 +41,17 @@ put -r localDirectory
 ```tar -xvf filename.tar``` 
 
 > Untar a tarred but uncompressed tarball (*.tar).
+
+# Directory
+
+```
+mkdir -p /xx/xx/xx
+```
+
+makes the directory hierachy directly.
+
+```
+rm -rf /xx/xx/xx
+```
+
+remove folder and its subfolders
