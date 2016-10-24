@@ -108,4 +108,18 @@ git tag -d tagname
 2. git remote add newname the-url-of-original-project
 3. git pull newname master
 
+### sync with latest upsteam code
+
+```
+git stash //stash your change
+git fetch main master
+git rebase main/master
+git stash appy
+```
+
+if has conflicts, solve conflicts and use 
+
+```
+git add conflict_file
+```
 ## Reference
