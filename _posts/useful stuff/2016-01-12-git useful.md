@@ -122,4 +122,27 @@ if has conflicts, solve conflicts and use
 ```
 git add conflict_file
 ```
+
+### work with multiple branches
+
+if you have multiple branches and want to separate the contribution
+
+for example, if you have branch named nn and pvanet
+
+if you want to switch to pvanet, then use 
+
+```
+git checkout pvanet
+```
+
+and write your code under this branch
+
+when you need to push to this branch, use 
+
+```
+git push xianyan pvanet
+```
+
+notice that you may need to keep updated with the upstream
+
 ## Reference
