@@ -124,6 +124,11 @@ git add conflict_file
 ```
 
 ### work with multiple branches
+to create a local branch from remote, use
+
+```
+git branch localBranch remoteGit/remoteBranch
+```
 
 if you have multiple branches and want to separate the contribution
 
