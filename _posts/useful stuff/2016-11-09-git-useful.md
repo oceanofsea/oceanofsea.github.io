@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "useful git operation"
-date:   2016-01-12 21:21
 categories: useful
 tags: git useful
 excerpt: 
