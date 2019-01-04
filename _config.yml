@@ -36,3 +36,5 @@ paginate_path: "page:num"
 # highlighter: pygments
 # highlighter: rouge
 # highlighter: false
+
+theme: jekyll-theme-cayman
